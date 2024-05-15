@@ -1,0 +1,24 @@
+
+Crear la tabla estudiantes
+CREATE TABLE estudiantes (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(255),
+apellidos VARCHAR(255),
+seminarios VARCHAR(50),
+confirmado BOOLEAN,
+fecha_inscripcion VARCHAR(255)
+);
+
+Insertar registros
+INSERT INTO estudiantes (nombre, apellidos, sseminarios, confirmado, fecha_inscripcion)
+VALUES
+('Laura', 'Morales', 'Seminario de Innovación Tecnológica', true, '2024-05-17'),
+('Sofía 'Hernández', 'Seminario de Ciencias Sociales', false, '2024-05-18'),
+('Diego', 'Ramírez', 'Seminario de Ingeniería', true, '2024-05-19'),
+('Lucas', 'Ortega', 'Seminario de Matemáticas Aplicadas', false, '2024-05-20'),
+('Elena', 'Núñez', 'Seminario de Humanidades', true, '2024-05-21'),
+('Mateo', 'Rojas', 'Seminario de Ciencias Naturales', false, '2024-05-22'),
+('Valentina', 'Castro', 'Seminario de Derecho Internacional', true, '2024-05-23'),
+('Isabela', 'García', 'Seminario de Medicina Avanzada', false, '2024-05-24'),
+('Emilia', 'Vargas', 'Seminario de Economía y Finanzas', true, '2024-05-25'),
+('Martín', 'Flores', 'Seminario de Artes y Letras', false, '2024-05-26');
